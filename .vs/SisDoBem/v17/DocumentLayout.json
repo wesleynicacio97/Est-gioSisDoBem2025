@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\controllers\\estoquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:controllers\\estoquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\views\\estoques\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:views\\estoques\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\models\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:models\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\models\\doador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:models\\doador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\migrations\\20251121235312_criacaodoadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:migrations\\20251121235312_criacaodoadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\controllers\\doadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:controllers\\doadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\migrations\\20251122002558_criacaoestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:migrations\\20251122002558_criacaoestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|c:\\users\\wesle\\onedrive\\documentos\\github\\estgiosisdobem2025\\migrations\\20251122004547_menucategoriaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BD7888-5D8F-4C36-AD75-BDCF8C63173D}|SisDoBem.csproj|solutionrelative:migrations\\20251122004547_menucategoriaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Views\\Estoques\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estoques\\Create.cshtml",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Views\\Estoques\\Create.cshtml",
+              "RelativeToolTip": "Views\\Estoques\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T00:48:50.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Models\\Enums\\Enums.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\Enums.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Models\\Enums\\Enums.cs",
+              "RelativeToolTip": "Models\\Enums\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:05:50.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Models\\Estoque.cs",
+              "RelativeDocumentMoniker": "Models\\Estoque.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Models\\Estoque.cs",
+              "RelativeToolTip": "Models\\Estoque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:04:41.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251121235312_criacaoDoadores.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Migrations\\20251121235312_criacaoDoadores.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251121235312_criacaoDoadores.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Migrations\\20251121235312_criacaoDoadores.cs",
+              "RelativeToolTip": "Migrations\\20251121235312_criacaoDoadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:53:12.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Controllers\\DoadoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoadoresController.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Controllers\\DoadoresController.cs",
+              "RelativeToolTip": "Controllers\\DoadoresController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:47:54.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstoquesController.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Controllers\\EstoquesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstoquesController.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Controllers\\EstoquesController.cs",
+              "RelativeToolTip": "Controllers\\EstoquesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:23:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251122002558_CriacaoEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Migrations\\20251122002558_CriacaoEstoque.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251122002558_CriacaoEstoque.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Migrations\\20251122002558_CriacaoEstoque.cs",
+              "RelativeToolTip": "Migrations\\20251122002558_CriacaoEstoque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:25:59.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:44:38.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251122004547_MenuCategoriaEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Migrations\\20251122004547_MenuCategoriaEstoque.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251122004547_MenuCategoriaEstoque.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Migrations\\20251122004547_MenuCategoriaEstoque.cs",
+              "RelativeToolTip": "Migrations\\20251122004547_MenuCategoriaEstoque.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:45:47.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Doador.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Models\\Doador.cs",
+              "RelativeDocumentMoniker": "Models\\Doador.cs",
+              "ToolTip": "C:\\Users\\wesle\\OneDrive\\Documentos\\GitHub\\EstgioSisDoBem2025\\Models\\Doador.cs",
+              "RelativeToolTip": "Models\\Doador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:42:18.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

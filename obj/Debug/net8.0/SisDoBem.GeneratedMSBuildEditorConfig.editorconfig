@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SisDoBem
+build_property.RootNamespace = SisDoBem
+build_property.ProjectDir = C:\Users\wesle\OneDrive\Documentos\GitHub\EstgioSisDoBem2025\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\wesle\OneDrive\Documentos\GitHub\EstgioSisDoBem2025
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Campanhas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtcGFuaGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Campanhas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtcGFuaGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Campanhas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtcGFuaGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Campanhas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtcGFuaGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Campanhas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtcGFuaGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Doadores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Doadores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Doadores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Doadores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Doadores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Donatarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRhcmlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Donatarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRhcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Estoques/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Estoques/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Estoques/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Estoques/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Estoques/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wesle/OneDrive/Documentos/GitHub/EstgioSisDoBem2025/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c6n3hquks6

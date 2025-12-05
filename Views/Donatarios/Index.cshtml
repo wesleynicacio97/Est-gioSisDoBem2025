@@ -1,0 +1,40 @@
+﻿@model List<SisDoBem.Models.Donatario>
+
+<link rel="stylesheet" href="~/css/cadastros.css" />
+
+<div class="page-wrapper">
+    <h2 class="page-title">Lista de Donatários</h2>
+
+    <div class="btn-create text-end mb-3">
+        <a asp-action="Create" class="btn btn-primary">+ Novo Donatário</a>
+    </div>
+
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var d in Model)
+                {
+                    <tr>
+                        <td>@d.Nome</td>
+                        <td>@d.Endereco</td>
+                        <td>@d.Telefone</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">Nenhum donatário encontrado.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

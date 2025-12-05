@@ -1,16 +1,20 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Collections.Generic;
-using SisDoBem.Models.Enums;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SisDoBem.Models
 {
     public class Donatario
     {
         public int Id { get; set; }
-        public int UsuarioId { get; set; }
-        public decimal RendaMensal { get; set; }
-        public int MembrosFamilia { get; set; }
-        public string Observacoes { get; set; }
+
+        [Required(ErrorMessage = "Informe o nome.")]
+        public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Informe o endereço.")]
+        public string Endereco { get; set; }
+
+        [Required(ErrorMessage = "Informe o telefone.")]
+        public string Telefone { get; set; }
+
+        public Enums.TipoDeUsuario TipoUsuario { get; set; } = Enums.TipoDeUsuario.Donatario;
     }
 }

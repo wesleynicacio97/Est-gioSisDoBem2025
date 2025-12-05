@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SisDoBem.Data;
 using SisDoBem.Models;
+using SisDoBem.Models.Enums;
 
 namespace SisDoBem.Controllers
 {
@@ -19,135 +19,149 @@ namespace SisDoBem.Controllers
             _context = context;
         }
 
+
         // GET: Usuarios
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? tipo)
         {
-            return View(await _context.Usuarios.ToListAsync());
+            var query = _context.Usuarios.AsQueryable();
+
+            if (!string.IsNullOrEmpty(tipo))
+            {
+                if (Enum.TryParse<TipoDeUsuario>(tipo, out var tipoEnum))
+                {
+                    query = query.Where(u => u.TipoDeUsuario == tipoEnum);
+                }
+            }
+
+            return View(await query.ToListAsync());
         }
 
-        // GET: Usuarios/Details/5
+
+
+        // ==== LISTA DE DOADORES ====
+        public async Task<IActionResult> Doadores()
+        {
+            var lista = await _context.Usuarios
+                .Where(u => u.TipoDeUsuario == TipoDeUsuario.DoadorCpf
+                         || u.TipoDeUsuario == TipoDeUsuario.DoadorCnpj)
+                .ToListAsync();
+
+            return View("Index", lista); // usa a mesma View Index
+        }
+
+
+        // ==== LISTA DE DONATÁRIOS ====
+        public async Task<IActionResult> Donatarios()
+        {
+            var lista = await _context.Usuarios
+                .Where(u => u.TipoDeUsuario == TipoDeUsuario.Donatario)
+                .ToListAsync();
+
+            return View("Index", lista);
+        }
+
+
+        // ==== LISTA DE VOLUNTÁRIOS ====
+        public async Task<IActionResult> Voluntarios()
+        {
+            var lista = await _context.Usuarios
+                .Where(u => u.TipoDeUsuario == TipoDeUsuario.Voluntario)
+                .ToListAsync();
+
+            return View("Index", lista);
+        }
+
+
+
+        // ==== DETALHES ====
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+
+            if (usuario == null) return NotFound();
 
             return View(usuario);
         }
 
-        // GET: Usuarios/Create
+
+        // ==== CADASTRAR ====
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Usuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Documento,Email,Telefone,Endereco,DataDeCadastro,TipoDeUsuario,Status")] Usuario usuario)
+        public async Task<IActionResult> Create(Usuario usuario)
         {
             if (ModelState.IsValid)
             {
+                usuario.DataDeCadastro = DateTime.Now;
                 _context.Add(usuario);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(usuario);
+        }
+
+
+        // ==== EDITAR ====
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null) return NotFound();
+
+            return View(usuario);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Usuario usuario)
+        {
+            if (id != usuario.Id) return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                _context.Update(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(usuario);
         }
 
-        // GET: Usuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-            return View(usuario);
-        }
 
-        // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Documento,Email,Telefone,Endereco,DataDeCadastro,TipoDeUsuario,Status")] Usuario usuario)
-        {
-            if (id != usuario.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(usuario);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!UsuarioExists(usuario.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(usuario);
-        }
-
-        // GET: Usuarios/Delete/5
+        // ==== DELETAR ====
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+
+            if (usuario == null) return NotFound();
 
             return View(usuario);
         }
 
-        // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario != null)
-            {
                 _context.Usuarios.Remove(usuario);
-            }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
 
         private bool UsuarioExists(int id)
         {

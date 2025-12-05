@@ -1,0 +1,63 @@
+﻿@model SisDoBem.Models.RegisterViewModel
+
+<div class="account-wrapper">
+    <div class="account-card">
+
+        <h2 class="text-center mb-4">Criar Conta</h2>
+
+        <!-- Botões sociais (visuais) -->
+        <button type="button" class="social-btn" onclick="location.href='#'">
+            <img src="https://img.icons8.com/color/48/google-logo.png" class="social-icon" />
+            Criar com Google
+        </button>
+
+        <button type="button" class="social-btn" onclick="location.href='#'">
+            <img src="https://img.icons8.com/ios-filled/50/mac-os.png" class="social-icon" />
+            Criar com Apple
+        </button>
+
+        <div class="divider"><span>ou</span></div>
+
+        <form asp-action="Register" method="post" novalidate>
+
+            <div class="mb-3">
+                <label class="form-label">Nome</label>
+                <input asp-for="Nome" class="form-control" />
+                <span class="text-danger" asp-validation-for="Nome"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Senha</label>
+                <input asp-for="Senha" type="password" class="form-control" />
+                <span class="text-danger" asp-validation-for="Senha"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Confirmar Senha</label>
+                <input asp-for="ConfirmarSenha" type="password" class="form-control" />
+                <span class="text-danger" asp-validation-for="ConfirmarSenha"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">Cadastrar</button>
+
+            <p class="text-center mt-3">
+                Já tem conta?
+                <a asp-controller="Account" asp-action="Login">Entrar</a>
+            </p>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+}

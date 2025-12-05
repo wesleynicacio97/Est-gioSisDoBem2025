@@ -1,0 +1,130 @@
+﻿/* ===========================
+   account.css - estilos para login/register
+=========================== */
+
+:root {
+    --card-bg: #ffffff;
+    --primary: #1976d2;
+    --muted: #6b7280;
+    --border: #e6e9ef;
+}
+
+/* Wrapper central */
+.account-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    padding: 24px;
+}
+
+/* Card */
+.account-card {
+    background: var(--card-bg);
+    width: 100%;
+    max-width: 380px;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 6px 22px rgba(15,23,42,0.08);
+    border: 1px solid var(--border);
+}
+
+    /* Título */
+    .account-card h2 {
+        font-size: 1.35rem;
+        font-weight: 700;
+    }
+
+/* Inputs */
+.form-control {
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid #dfe6ef;
+}
+
+/* Botões sociais */
+.social-btn {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    transition: background .15s, transform .06s;
+}
+
+    .social-btn:hover {
+        background: #f6f7fb;
+        transform: translateY(-1px);
+    }
+
+/* Ícone social */
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Divisor "ou" */
+.divider {
+    text-align: center;
+    margin: 12px 0;
+    position: relative;
+}
+
+    .divider::before, .divider::after {
+        content: "";
+        display: block;
+        height: 1px;
+        background: #efefef;
+        position: absolute;
+        top: 50%;
+        width: 40%;
+        transform: translateY(-50%);
+    }
+
+    .divider::before {
+        left: 0;
+    }
+
+    .divider::after {
+        right: 0;
+    }
+
+    .divider span {
+        display: inline-block;
+        background: var(--card-bg);
+        padding: 0 10px;
+        color: var(--muted);
+        position: relative;
+        z-index: 2;
+    }
+
+/* Erros */
+.text-danger {
+    font-size: 0.9rem;
+}
+
+/* Botões principais */
+.btn-primary {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background: #155fad;
+        border-color: #155fad;
+    }
+
+/* Pequena responsividade */
+@media (max-width: 480px) {
+    .account-card {
+        padding: 18px;
+        max-width: 92%;
+    }
+}

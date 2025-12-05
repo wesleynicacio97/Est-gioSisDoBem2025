@@ -13,6 +13,16 @@ namespace SisDoBem.Data
         public DbSet<Donatario> Donatario { get; set; }
         public DbSet<Entrada> Entrada { get; set; }
         public DbSet<Saida> Saida { get; set; }
-        
+        public DbSet<Doador> Doador { get; set; }
+        public DbSet<Estoque> Estoque { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Estoque>().Property(e => e.categoria).HasConversion<string>();
+
+        }
+
     }
 }

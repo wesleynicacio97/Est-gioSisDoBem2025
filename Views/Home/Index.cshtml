@@ -1,8 +1,111 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+
+    <!-- ===== CARROSSEL ===== -->
+    <div id="homeCarousel" class="carousel slide mb-4 shadow-sm" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-4">
+
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/1200/300?random=1" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Bem-vindo ao SisDoBem</h5>
+                    <p>Sistema de apoio à gestão de doações para ONGs.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1200/300?random=2" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Controle de Estoque</h5>
+                    <p>Acompanhe entradas, saídas e itens essenciais.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1200/300?random=3" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Gestão de Doadores</h5>
+                    <p>Registre e acompanhe todas as doações recebidas.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botões do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- ===== CARDS DE INDICADORES ===== -->
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class=" rounded-4 p-4 shadow-sm bg-white">
+                <h4 class="fw-bold">📦 Estoque</h4>
+                <p class="text-muted">Itens cadastrados: <strong>152</strong></p>
+                <a class="btn btn-primary w-100" href="/Estoque">Ver Estoque</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class=" rounded-4 p-4 shadow-sm bg-white">
+                <h4 class="fw-bold">❤️ Doadores</h4>
+                <p class="text-muted">Total de doadores: <strong>48</strong></p>
+                <a class="btn btn-danger w-100" href="/Doadores">Ver Doadores</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class=" rounded-4 p-4 shadow-sm bg-white">
+                <h4 class="fw-bold">🤝 Donatários</h4>
+                <p class="text-muted">Famílias atendidas: <strong>32</strong></p>
+                <a class="btn btn-success w-100" href="/Donatarios">Ver Donatários</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ===== SEÇÃO DE ATALHOS ===== -->
+    <div class="mt-5">
+        <h3 class="fw-bold mb-3">Atalhos Rápidos</h3>
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <a href="/Cadastros/Doadores" class="shortcut-card">
+                    <i class="bi bi-person-heart"></i>
+                    <span>Cadastro de Doadores</span>
+                </a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="/Cadastros/Donatarios" class="shortcut-card">
+                    <i class="bi bi-people"></i>
+                    <span>Cadastro de Donatários</span>
+                </a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="/Estoque" class="shortcut-card">
+                    <i class="bi bi-box-seam"></i>
+                    <span>Gerenciar Estoque</span>
+                </a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="/Relatorios" class="shortcut-card">
+                    <i class="bi bi-file-earmark-bar-graph"></i>
+                    <span>Relatórios</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
 </div>

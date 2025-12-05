@@ -66,6 +66,36 @@ namespace SisDoBem.Migrations
                     b.ToTable("Campanhas");
                 });
 
+            modelBuilder.Entity("SisDoBem.Models.Doador", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Doador");
+                });
+
             modelBuilder.Entity("SisDoBem.Models.Donatario", b =>
                 {
                     b.Property<int>("Id")
@@ -74,17 +104,19 @@ namespace SisDoBem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("MembrosFamilia")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Observacoes")
+                    b.Property<string>("Endereco")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("RendaMensal")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UsuarioId")
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TipoUsuario")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -116,6 +148,30 @@ namespace SisDoBem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Entrada");
+                });
+
+            modelBuilder.Entity("SisDoBem.Models.Estoque", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("categoria")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("quantidade")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estoque");
                 });
 
             modelBuilder.Entity("SisDoBem.Models.Saida", b =>

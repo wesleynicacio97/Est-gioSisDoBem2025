@@ -7,4 +7,5 @@
 
     public enum TipoDeUsuario { Administrador, DoadorCnpj, DoadorCpf, Donatario, Voluntario }
     public enum MeioDeDoacao { Online, Presencial }
+    public enum ItemCategoria { Roupa, Brinquedo, Alimento, Outro }
 }
